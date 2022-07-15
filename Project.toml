@@ -1,6 +1,2 @@
 [compat]
-julia = "1.7.3"
-[deps]
-CSV
-LightGraphs
-GraphPlot
+julia = "1.7"
