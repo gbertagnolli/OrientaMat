@@ -1,0 +1,81 @@
+Creator "igraph version 1.3.1 Fri Jul 15 18:09:10 2022"
+Version 1
+graph
+[
+  multigraph 1
+  directed 0
+  name "The seven bidges of Koenigsberg"
+  node
+  [
+    id 0
+    name "Altstadt-Loebenicht"
+    Eulerletter "B"
+  ]
+  node
+  [
+    id 1
+    name "Kneiphof"
+    Eulerletter "A"
+  ]
+  node
+  [
+    id 2
+    name "Vorstadt-Haberberg"
+    Eulerletter "C"
+  ]
+  node
+  [
+    id 3
+    name "Lomse"
+    Eulerletter "D"
+  ]
+  edge
+  [
+    source 1
+    target 0
+    Eulerletter "a"
+    name "Kraemer Bruecke"
+  ]
+  edge
+  [
+    source 1
+    target 0
+    Eulerletter "b"
+    name "Schmiedebruecke"
+  ]
+  edge
+  [
+    source 3
+    target 0
+    Eulerletter "f"
+    name "Holzbruecke"
+  ]
+  edge
+  [
+    source 3
+    target 1
+    Eulerletter "e"
+    name "Honigbruecke"
+  ]
+  edge
+  [
+    source 3
+    target 2
+    Eulerletter "g"
+    name "Hohe Bruecke"
+  ]
+  edge
+  [
+    source 2
+    target 1
+    Eulerletter "c"
+    name "Gruene Bruecke"
+  ]
+  edge
+  [
+    source 2
+    target 1
+    Eulerletter "d"
+    name "Koettelbruecke"
+  ]
+]
